@@ -8,7 +8,7 @@ INSERT INTO servico (nome_servico, descricao, preco_base) VALUES
 ('Instalação de bacia e caixa acoplada', 'Troca completa de bacia sanitária com vedante e testes.', 280.00),
 ('Montagem de móveis simples', 'Mesas, cadeiras, estantes e móveis até 6 peças.', 120.00),
 ('Montagem de móveis grandes', 'Guarda-roupas, cozinhas planejadas e armários.', 240.00),
-('Pintura de parede (cm²)', 'Pintura por metro quadrado com massa corrida e tinta acrílica.', 380.00),
+('Pintura de parede (m²)', 'Pintura por metro quadrado com massa corrida e tinta acrílica.', 380.00),
 ('Pequenos reparos domésticos', 'Apertos, ajustes, troca de peças e pequenos consertos.', 90.00),
 ('Serviço de emergência (24h)', 'Atendimento emergencial em qualquer horário.', 350.00),
 ('Instalação de Suporte de TV', 'Fixação em parede de alvenaria ou painel com passagem de fiação e calibração.', 140.00),
@@ -19,20 +19,20 @@ INSERT INTO servico (nome_servico, descricao, preco_base) VALUES
 ('Instalação de Cortinas e Persianas', 'Fixação de trilhos ou varões com alinhamento e nivelamento milimétrico.', 110.00),
 ('Limpeza e Manutenção de Filtros de Ar Condicionado', 'Higienização química preventiva de filtros e aletas de refrigeração.', 120.00);
 
-INSERT INTO cliente (nome, CPF, email, telefone, senha) VALUES 
-('Anthony Duarte Barbosa', '310.875.379-75', 'anthony.barbosa@gmail.com', '(11) 91111-0001', 'nigger00!a'),
-('Jose Antonio Pimenta Cescon', '386.362.289-80', 'jose.cescon@gmail.com', '(11) 91111-0002', 'ihatenigger01'),
-('Dillan Barbosa Passos da Invencao', '167.869.259-01', 'dillan.invencao@gmail.com', '(11) 91111-0003', 'niggaax210!'),
+INSERT INTO cliente (nome, cpf, email, telefone, senha) VALUES 
+('Anthony Duarte Barbosa', '310.875.379-75', 'anthony.barbosa@gmail.com', '(11) 91111-0001', 'senha01!a'),
+('Jose Antonio Pimenta Cescon', '386.362.289-80', 'jose.cescon@gmail.com', '(11) 91111-0002', 'senha02!b'),
+('Dillan Barbosa Passos da Invencao', '167.869.259-01', 'dillan.invencao@gmail.com', '(11) 91111-0003', 'senha03!c'),
 ('Erasmo Carlos Lucini Junior', '336.205.429-37', 'erasmo.lucini@gmail.com', '(11) 91111-0004', 'pintinhoscoloridos123'),
 ('Jean Carlos Rorato Dahmer Pereira', '951.849.719-20', 'jean.pereira@gmail.com', '(11) 91111-0005', 'aura67quatrodois'),
-('Isaque dos Santos Witt', '306.442.769-59', 'isaque.witt@gmail.com', '(11) 91111-0006', 'nigeriano123!'),
+('Isaque dos Santos Witt', '306.442.769-59', 'isaque.witt@gmail.com', '(11) 91111-0006', 'senha06!f'),
 ('Danilo Lima Rodrigues', '638.400.458-51', 'danilo.lima@gmail.com', '(62) 5094-2041', 'felipe09z!'),
 ('Breno Rodrigues Alves', '553.722.833-51', 'breno.alves@gmail.com', '(87) 4253-8734', 'platao213a!a'),
 ('Otávio Sousa Barbosa', '975.545.108-00', 'otavio.b@gmail.com', '(81) 5407-9094', 'otavinho123!'),
 ('Luana Goncalves Cavalcanti', '309.043.732-58', 'luana.goon@gmail.com', '(73) 4007-2752', 'lugoon123!'),
 ('Sophia Martins Melo', '259.871.423-77', 'sophmart@gmail.com', '(62) 3461-5938', 'sophid921');
 
-INSERT INTO funcionario (nome, CPF, email, telefone, senha, especialidade) VALUES 
+INSERT INTO funcionario (nome, cpf, email, telefone, senha, especialidade) VALUES 
 ('Rodrigo Ferreira Nunes', '500.272.861-36', 'rodrigo.ferreira.nunes26@gmail.com', '(34) 92040-8510', 'cachorroabc', 'Pequenos reparos domésticos'),
 ('Diego Fernandes Moreira', '867.302.435-79', 'diego.fernandes.moreira21@gmail.com', '(55) 99628-7576', 'jesus01', 'Fixação de Quadros, Espelhos e Prateleiras'),
 ('Leonardo Marques Silva', '617.804.200-43', 'leonardo.marques.silva56@gmail.com', '(19) 91784-3542', 'brasil2026', 'Serviço de emergência (24h)'),
@@ -44,7 +44,7 @@ INSERT INTO funcionario (nome, CPF, email, telefone, senha, especialidade) VALUE
 ('Beatriz Silva Soares', '222.145.512-29', 'beatriz.silva.soares13@gmail.com', '(36) 93093-1212', 'cachorro!', 'Pequenos reparos domésticos'),
 ('Rafael Carvalho Souza', '593.441.512-88', 'rafael.carvalho.souza91@gmail.com', '(72) 93021-4412', 'flamengo123', 'Montagem de móveis grandes'),
 ('Amanda Rocha Almeida', '102.854.771-42', 'amanda.rocha.almeida44@gmail.com', '(12) 98124-7751', 'senha2024', 'Instalação de bacia e caixa acoplada'),
-('Marcos Lopes Dias', '734.991.602-15', 'marcos.lopes.dias32@gmail.com', '(88) 99124-6012', 'mudar321', 'Pintura de parede (cm²)'),
+('Marcos Lopes Dias', '734.991.602-15', 'marcos.lopes.dias32@gmail.com', '(88) 99124-6012', 'mudar321', 'Pintura de parede (m²)'),
 ('Juliana Barbosa Ribeiro', '401.772.339-01', 'juliana.barbosa.ribeiro55@gmail.com', '(31) 97412-8854', 'corinthians@123', 'Instalação de Fechadura Digital'),
 ('Lucas Costa Machado', '812.339.551-64', 'lucas.costa.machado11@gmail.com', '(21) 96512-3394', 'amor123', 'Desentupimento de pia/ralo'),
 ('Patricia Nascimento Mendes', '192.448.771-33', 'patricia.nascimento.mendes76@gmail.com', '(47) 99125-7741', 'sistemaabc', 'Montagem de móveis simples'),
@@ -52,17 +52,17 @@ INSERT INTO funcionario (nome, CPF, email, telefone, senha, especialidade) VALUE
 ('Carlos Souza Lima', '302.884.115-92', 'carlos.souza.lima82@gmail.com', '(35) 97142-3399', 'teste2026', 'Manutenção elétrica predial'),
 ('Gustavo Marques Ferreira', '912.441.332-04', 'gustavo.marques.ferreira51@gmail.com', '(81) 96124-7741', 'deus123', 'Instalação de Suporte de TV'),
 ('Larissa Machado Oliveira', '412.551.993-61', 'larissa.machado.oliveira29@gmail.com', '(19) 97125-8841', 'mestre!', 'Pequenos reparos domésticos'),
-('Felipe Andrade Carvalho', '221.994.331-07', 'felipe.andrade.carvalho41@gmail.com', '(21) 99124-3315', 'chefe01', 'Pintura de parede (cm²)');
+('Felipe Andrade Carvalho', '221.994.331-07', 'felipe.andrade.carvalho41@gmail.com', '(21) 99124-3315', 'chefe01', 'Pintura de parede (m²)');
 
-INSERT INTO os (id_cliente, valort, data, local, descricao) VALUES
-(1, 90.00, '19/05/2024', 'Rua Almirante Barroso', 'Atendimento dentro do prazo.'),
-(2, 500.00, '14/11/2021', 'Avenida Jorge Schimmelpfeng', 'Trabalho limpo e organizado.'),
-(3, 350.00, '22/07/2018', 'Avenida Brasil', 'Muito satisfeito com o resultado.'),
-(4, 90.00, '05/01/2020', 'Rua Almirante Barroso', 'Trabalho limpo e organizado.'),
-(5, 80.00, '05/01/2020', 'Avenida Brasil', 'Atendimento dentro do prazo.'),
-(6, 500.00, '19/05/2024', 'Avenida Brasil', 'Profissional atencioso.'),
-(7, 500.00, '15/03/2015', 'Avenida das Cataratas', 'Muito satisfeito com o resultado.'),
-(8, 500.00, '22/07/2018', 'Rua Almirante Barroso', 'Profissional atencioso.'),
-(9, 350.00, '19/05/2024', 'Avenida Juscelino Kubitscheck', 'Serviço excelente e rápido.'),
-(10, 175.00, '14/11/2021', 'Avenida Brasil', 'Trabalho limpo e organizado.'),
-(11, 250.00, '30/08/2023', 'Avenida Brasil', 'Atendimento no prazo.');
+INSERT INTO os (id_cliente, id_servico, id_funcionario, preco_unitario, data, local, descricao) VALUES
+(1, 11, 1, 90.00, '19/05/2024', 'Rua Almirante Barroso', 'Atendimento dentro do prazo.'),
+(2, 4, 17, 500.00, '14/11/2021', 'Avenida Jorge Schimmelpfeng', 'Trabalho limpo e organizado.'),
+(3, 12, 3, 350.00, '22/07/2018', 'Avenida Brasil', 'Muito satisfeito com o resultado.'),
+(4, 11, 9, 90.00, '05/01/2020', 'Rua Almirante Barroso', 'Trabalho limpo e organizado.'),
+(5, 15, 2, 80.00, '05/01/2020', 'Avenida Brasil', 'Atendimento dentro do prazo.'),
+(6, 4, 17, 500.00, '19/05/2024', 'Avenida Brasil', 'Profissional atencioso.'),
+(7, 4, 17, 500.00, '15/03/2015', 'Avenida das Cataratas', 'Muito satisfeito com o resultado.'),
+(8, 4, 17, 500.00, '22/07/2018', 'Rua Almirante Barroso', 'Profissional atencioso.'),
+(9, 12, 3, 350.00, '19/05/2024', 'Avenida Juscelino Kubitscheck', 'Serviço excelente e rápido.'),
+(10, 1, 5, 175.00, '14/11/2021', 'Avenida Brasil', 'Trabalho limpo e organizado.'),
+(11, 16, 13, 250.00, '30/08/2023', 'Avenida Brasil', 'Atendimento no prazo.');
