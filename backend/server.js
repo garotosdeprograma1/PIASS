@@ -27,7 +27,7 @@ const server = http.createServer((req, res) => {
     urlPath = urlPath + '.html';
   }
 
-  const filePath = path.join(__dirname, urlPath);
+  const filePath = path.join(__dirname, '../frontend', urlPath);
 
   fs.readFile(filePath, (err, data) => {
     if (err) {
